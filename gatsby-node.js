@@ -1,6 +1,10 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+console.log("test")
+console.log("test")
+console.log("test")
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
